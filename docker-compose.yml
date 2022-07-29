@@ -1,0 +1,10 @@
+version: "3.9"
+services:
+  pizza:
+    build: apps/pizza
+    ports:
+      - 8000:9292
+  ingredients:
+    build: apps/ingredients
+    ports:
+      - 8001:9292
